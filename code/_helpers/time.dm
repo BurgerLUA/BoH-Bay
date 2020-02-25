@@ -107,7 +107,7 @@ var/global/round_start_time_real = 0
 	return 1
 
 /hook/startup/proc/set_roundstart_hour()
-	roundstart_hour = pick(2,7,12,17)
+	roundstart_hour = pick(6,11,5)
 	return 1
 
 GLOBAL_VAR_INIT(midnight_rollovers, 0)

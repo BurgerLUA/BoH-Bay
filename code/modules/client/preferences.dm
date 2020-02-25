@@ -301,8 +301,15 @@ datum/preferences
 			character.descriptors[entry] = body_descriptors[entry]
 
 	if(!character.isSynthetic())
-		character.set_nutrition(rand(140,360))
+		character.set_nutrition(character.get_desired_nutrition())
 		character.set_hydration(rand(140,360))
+
+/mob/living/carbon/proc/get_desired_nutrition()
+	var/hunger_per_decisecond = species.hunger_factor/SSmobs.wait
+	var/deciseconds_until_hunger = ((round_start_time + (1 HOUR)) - world.time)
+	. = 140 + (deciseconds_until_hunger*hunger_per_decisecond)
+	world.log << "NUTRITION FIRST: [.]"
+	return Clamp(.,140,360)
 
 /datum/preferences/proc/open_load_dialog(mob/user)
 	var/dat  = list()
