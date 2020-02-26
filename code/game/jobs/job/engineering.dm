@@ -25,6 +25,7 @@
 	minimal_player_age = 14
 	outfit_type = /decl/hierarchy/outfit/job/engineering/chief_engineer
 
+
 /datum/job/engineer
 	title = "Engineer"
 	department = "Engineering"
@@ -41,3 +42,27 @@
 	alt_titles = list("Maintenance Technician","Engine Technician","Electrician",
 		"Atmospheric Technician" = /decl/hierarchy/outfit/job/engineering/atmos)
 	outfit_type = /decl/hierarchy/outfit/job/engineering/engineer
+
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_EXPERT,
+		SKILL_FINANCE = SKILL_EXPERT,
+		SKILL_EVA = SKILL_EXPERT,
+		SKILL_MECH = SKILL_EXPERT,
+		SKILL_PILOT = SKILL_EXPERT,
+		SKILL_HAULING = SKILL_EXPERT,
+		SKILL_COMPUTER = SKILL_EXPERT,
+		SKILL_BOTANY = SKILL_EXPERT,
+		SKILL_COOKING = SKILL_EXPERT,
+		SKILL_COMBAT = SKILL_EXPERT,
+		SKILL_WEAPONS = SKILL_EXPERT,
+		SKILL_FORENSICS = SKILL_EXPERT,
+		SKILL_CONSTRUCTION = SKILL_PROF,
+		SKILL_ELECTRICAL = SKILL_PROF,
+		SKILL_ATMOS = SKILL_PROF,
+		SKILL_ENGINES = SKILL_PROF,
+		SKILL_DEVICES = SKILL_EXPERT,
+		SKILL_SCIENCE = SKILL_EXPERT,
+		SKILL_MEDICAL = SKILL_EXPERT,
+		SKILL_ANATOMY = SKILL_EXPERT,
+		SKILL_CHEMISTRY = SKILL_EXPERT
+	)

@@ -41,6 +41,30 @@
 		"Virologist" = /decl/hierarchy/outfit/job/medical/doctor/virologist)
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
 
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_EXPERT,
+		SKILL_FINANCE = SKILL_EXPERT,
+		SKILL_EVA = SKILL_EXPERT,
+		SKILL_MECH = SKILL_EXPERT,
+		SKILL_PILOT = SKILL_EXPERT,
+		SKILL_HAULING = SKILL_EXPERT,
+		SKILL_COMPUTER = SKILL_EXPERT,
+		SKILL_BOTANY = SKILL_EXPERT,
+		SKILL_COOKING = SKILL_EXPERT,
+		SKILL_COMBAT = SKILL_EXPERT,
+		SKILL_WEAPONS = SKILL_EXPERT,
+		SKILL_FORENSICS = SKILL_EXPERT,
+		SKILL_CONSTRUCTION = SKILL_EXPERT,
+		SKILL_ELECTRICAL = SKILL_EXPERT,
+		SKILL_ATMOS = SKILL_EXPERT,
+		SKILL_ENGINES = SKILL_EXPERT,
+		SKILL_DEVICES = SKILL_EXPERT,
+		SKILL_SCIENCE = SKILL_EXPERT,
+		SKILL_MEDICAL = SKILL_EXPERT,
+		SKILL_ANATOMY = SKILL_EXPERT,
+		SKILL_CHEMISTRY = SKILL_EXPERT
+	)
+
 //Chemist is a medical job damnit	//YEAH FUCK YOU SCIENCE	-Pete	//Guys, behave -Erro
 /datum/job/chemist
 	title = "Pharmacist"
@@ -57,6 +81,30 @@
 	minimal_access = list(access_medical, access_medical_equip, access_chemistry)
 	outfit_type = /decl/hierarchy/outfit/job/medical/chemist
 
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_EXPERT,
+		SKILL_FINANCE = SKILL_EXPERT,
+		SKILL_EVA = SKILL_EXPERT,
+		SKILL_MECH = SKILL_EXPERT,
+		SKILL_PILOT = SKILL_EXPERT,
+		SKILL_HAULING = SKILL_EXPERT,
+		SKILL_COMPUTER = SKILL_EXPERT,
+		SKILL_BOTANY = SKILL_EXPERT,
+		SKILL_COOKING = SKILL_EXPERT,
+		SKILL_COMBAT = SKILL_EXPERT,
+		SKILL_WEAPONS = SKILL_EXPERT,
+		SKILL_FORENSICS = SKILL_EXPERT,
+		SKILL_CONSTRUCTION = SKILL_EXPERT,
+		SKILL_ELECTRICAL = SKILL_EXPERT,
+		SKILL_ATMOS = SKILL_EXPERT,
+		SKILL_ENGINES = SKILL_EXPERT,
+		SKILL_DEVICES = SKILL_EXPERT,
+		SKILL_SCIENCE = SKILL_EXPERT,
+		SKILL_MEDICAL = SKILL_EXPERT,
+		SKILL_ANATOMY = SKILL_EXPERT,
+		SKILL_CHEMISTRY = SKILL_PROF
+	)
+
 /datum/job/geneticist
 	title = "Geneticist"
 	department = "Medical"
@@ -71,6 +119,30 @@
 	access = list(access_medical, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics, access_research)
 	minimal_access = list(access_medical, access_morgue, access_genetics, access_research)
 	outfit_type = /decl/hierarchy/outfit/job/medical/geneticist
+
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_EXPERT,
+		SKILL_FINANCE = SKILL_EXPERT,
+		SKILL_EVA = SKILL_EXPERT,
+		SKILL_MECH = SKILL_EXPERT,
+		SKILL_PILOT = SKILL_EXPERT,
+		SKILL_HAULING = SKILL_EXPERT,
+		SKILL_COMPUTER = SKILL_EXPERT,
+		SKILL_BOTANY = SKILL_EXPERT,
+		SKILL_COOKING = SKILL_EXPERT,
+		SKILL_COMBAT = SKILL_EXPERT,
+		SKILL_WEAPONS = SKILL_EXPERT,
+		SKILL_FORENSICS = SKILL_EXPERT,
+		SKILL_CONSTRUCTION = SKILL_EXPERT,
+		SKILL_ELECTRICAL = SKILL_EXPERT,
+		SKILL_ATMOS = SKILL_EXPERT,
+		SKILL_ENGINES = SKILL_EXPERT,
+		SKILL_DEVICES = SKILL_EXPERT,
+		SKILL_SCIENCE = SKILL_EXPERT,
+		SKILL_MEDICAL = SKILL_EXPERT,
+		SKILL_ANATOMY = SKILL_EXPERT,
+		SKILL_CHEMISTRY = SKILL_EXPERT
+	)
 
 /datum/job/psychiatrist
 	title = "Psychiatrist"
@@ -87,6 +159,30 @@
 	minimal_access = list(access_medical, access_medical_equip, access_psychiatrist)
 	outfit_type = /decl/hierarchy/outfit/job/medical/psychiatrist
 
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_EXPERT,
+		SKILL_FINANCE = SKILL_EXPERT,
+		SKILL_EVA = SKILL_EXPERT,
+		SKILL_MECH = SKILL_EXPERT,
+		SKILL_PILOT = SKILL_EXPERT,
+		SKILL_HAULING = SKILL_EXPERT,
+		SKILL_COMPUTER = SKILL_EXPERT,
+		SKILL_BOTANY = SKILL_EXPERT,
+		SKILL_COOKING = SKILL_EXPERT,
+		SKILL_COMBAT = SKILL_EXPERT,
+		SKILL_WEAPONS = SKILL_EXPERT,
+		SKILL_FORENSICS = SKILL_EXPERT,
+		SKILL_CONSTRUCTION = SKILL_EXPERT,
+		SKILL_ELECTRICAL = SKILL_EXPERT,
+		SKILL_ATMOS = SKILL_EXPERT,
+		SKILL_ENGINES = SKILL_EXPERT,
+		SKILL_DEVICES = SKILL_EXPERT,
+		SKILL_SCIENCE = SKILL_EXPERT,
+		SKILL_MEDICAL = SKILL_EXPERT,
+		SKILL_ANATOMY = SKILL_EXPERT,
+		SKILL_CHEMISTRY = SKILL_EXPERT
+	)
+
 /datum/job/Paramedic
 	title = "Paramedic"
 	department = "Medical"
@@ -102,3 +198,27 @@
 	minimal_access = list(access_medical, access_medical_equip, access_morgue, access_eva, access_maint_tunnels, access_external_airlocks)
 	alt_titles = list("Emergency Medical Technician" = /decl/hierarchy/outfit/job/medical/paramedic/emt)
 	outfit_type = /decl/hierarchy/outfit/job/medical/paramedic
+
+	max_skill = list(
+		SKILL_BUREAUCRACY = SKILL_EXPERT,
+		SKILL_FINANCE = SKILL_EXPERT,
+		SKILL_EVA = SKILL_EXPERT,
+		SKILL_MECH = SKILL_EXPERT,
+		SKILL_PILOT = SKILL_EXPERT,
+		SKILL_HAULING = SKILL_EXPERT,
+		SKILL_COMPUTER = SKILL_EXPERT,
+		SKILL_BOTANY = SKILL_EXPERT,
+		SKILL_COOKING = SKILL_EXPERT,
+		SKILL_COMBAT = SKILL_EXPERT,
+		SKILL_WEAPONS = SKILL_EXPERT,
+		SKILL_FORENSICS = SKILL_EXPERT,
+		SKILL_CONSTRUCTION = SKILL_EXPERT,
+		SKILL_ELECTRICAL = SKILL_EXPERT,
+		SKILL_ATMOS = SKILL_EXPERT,
+		SKILL_ENGINES = SKILL_EXPERT,
+		SKILL_DEVICES = SKILL_EXPERT,
+		SKILL_SCIENCE = SKILL_EXPERT,
+		SKILL_MEDICAL = SKILL_EXPERT,
+		SKILL_ANATOMY = SKILL_EXPERT,
+		SKILL_CHEMISTRY = SKILL_EXPERT
+	)
